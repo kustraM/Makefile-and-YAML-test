@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.4)
+FIND_PACKAGE(yaml-cpp REQUIRED)
+ADD_EXECUTABLE(yaml_testing yaml_testing.cpp)
+TARGET_LINK_LIBRARIES(yaml_testing yaml-cpp)

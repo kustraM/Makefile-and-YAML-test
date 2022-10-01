@@ -1,0 +1,12 @@
+TOPKEY:
+  interfaces:
+    command:
+      - component_name: ""
+        iface_name: A_iface
+        description: Voltage channel
+      - component_name: B_comp
+        iface_name: B_iface
+        description: ""
+      - component_name: C_comp
+        iface_name: C_iface
+        description: Voltage channel 3
